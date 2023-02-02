@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background: #D6BCFF;
+}
+
+.titleContainer {
+    margin: 100px 650px;
+}
+
+.titleContainer span {
+    width: 25px;
+    display: flex;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: 0.625em;
+    color: #6F3CFF;
+}
+
+span,
+label {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+    color: #9C60FF;
+}
+
+.billContainer {
+    margin: 110px auto;
+    width: 818px;
+    height: 428px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.billLeft {
+    width: 367px;
+    height: 370px;
+    display: flex;
+    flex-flow: column;
+    gap: 25px;
+    margin: 28px;
+}
+
+.billRight {
+    width: 367px;
+    height: 370px;
+    background: #9C60FF;
+    border-radius: 11px;
+    margin: 28px;
+}
+
+.billInput span {
+    font-size: 20px;
+}
+
+.billInput input {
+    margin-top: 10px;
+
+    width: 322px;
+    height: 43px;
+    background: rgba(182, 172, 196, 0.53);
+    border-radius: 3px;
+    border-style: none;
+    font-family: 'Monospaceland';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #9C60FF;
+    text-align: right;
+}
+
+.tipsOption {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.tipBox {
+    margin: 0;
+    background: #9C60FF;
+    border-radius: 4px;
+    width: 106px;
+    height: 35px;
+    font-family: 'Monospaceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    padding-top: 10px;
+    color: #E9DBFF;
+}
+
+/* no. of person */
+
+.numpboxl {
+    display: flex;
+    margin-top: 10px;
+}
+
+.numpbox {
+    width: 220px;
+    height: 43px;
+    background: rgba(182, 172, 196, 0.53);
+    border-radius: 3px;
+}
+
+.numpbtn {
+    display: flex;
+    width: 117px;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #8E8E8E;
+    border-radius: 4px;
+}
+
+.numpbtn button {
+    padding: 0;
+    height: 43px;
+    border-style: none;
+    width: 34px;
+}
+
+.numpbtn p {
+    margin: 11px;
+}
+
+
+/*  */
+.totalAmounts {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.ammountRow {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.total {
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.045em;
+    color: #F3E4FF;
+}
+
+.amountTexts,
+span {
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.045em;
+    color: #C39FFF;
+
+}
+
+.totalAmountPP,
+.ammount {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #C39FFF;
+}
+
+.change-btn {
+    width: 295px;
+    height: 43px;
+    text-align: center;
+    margin: 135px auto;
+    background: #C39FFF;
+    border-radius: 5px;
+
+}
+
+.change-btn button {
+    padding-top: 5px;
+
+    border-style: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.19em;
+    color: #9C60FF;
+    background: #C39FFF;
+    border-radius: 5px;
+}

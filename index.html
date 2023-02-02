@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill-Spill-App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="root">
+        <div class="titleContainer">
+            <span>BILL</span>
+            <span>SPILL</span>
+        </div>
+        <div class="billContainer">
+            <div class="billLeft">
+
+                <div class="billAmount">
+                    <label>Bill</label>
+                    <div class="billInput">
+                        <span>₹</span>
+                        <input placeholder="0" type="number" default="0" inputmode="numeric" id="inputTag">
+                    </div>
+                </div>
+
+                <div class="tipsContainer">
+                    <span>Select Tip %</span>
+                    <div class="tipsOption">
+
+                        <p class="tipBox" id="5">5%</p>
+                        <p class="tipBox" id="10">10%</p>
+                        <p class="tipBox" id="15">15%</p>
+                        <p class="tipBox" id="25">25%</p>
+                        <p class="tipBox" id="50">50%</p>
+                        <p class="tipBox" id="75">75%</p>
+
+                    </div>
+
+                </div>
+                <div class="numpeople">
+                    <span>Number of People</span>
+                    <div class="numpboxl">
+                        <div class="numpbox"></div>
+                        <div class="numpbtn">
+                            <button type="button" id="plusBtn">+</button>
+                            <p class="number">1</p> 
+                            <button type="button" id="minusBtn">-</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="billRight">
+                <div class="totalAmounts">
+                    <div class="ammountRow">
+                        <div class="amountTexts">
+                            <div class="total">Tip Ammount</div>
+                            <span>/person</span>
+                        </div>
+                        <div class="totalAmountPP">₹0.00</div>
+                    </div>
+                    <div class="ammountRow">
+                        <div class="ammountTexts">
+                            <div class="total">Total</div>
+                            <span>/person</span>
+                        </div>
+                        <div class="ammount">₹0.00</div>
+                    </div>
+                </div>
+                <div class="change-btn">
+                    <button>Generate</button>
+                    <!-- <button>Reset</button> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
